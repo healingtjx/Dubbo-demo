@@ -37,11 +37,41 @@ linux   执行  %ZooKeeper%/bin/zkServer.sh
   
   
 # 第二步下载源码  
+  
+git clone https://github.com/tjx1014/Dubbo-demo.git  
 
+项目骨架
+
+Dubbo-demo                    
+---------dubbo-admin                  
+-------------------dubbo-admin-distribution                
+-------------------dubbo-admin-server(服务端代码)              
+-------------------dubbo-admin-ui(前端代码)            
+-------------------pom.xml          
+---------dubbo-demo        
+-------------------Consumer(生产者)      
+-------------------Provider(消费者)    
+-------------------pom.xml  
+
+
+#运行dubbo-admin项目                        
+第一种方法:                      
+导入idea                     
+执行 maven clear                    
+然后执行 maven install                
+最后 运行 dubbo-admin-server\src\main\java\org\apache\dubbo\admin\DubboAdminApplication.java              
+第二种方法:            
+在 命令行里面           
+mvn clear        
+mvn install      
+cd dubbo-admin-server    
+mvn spring-boot:run  
 
 
 
   
+#运行dubbo-demo项目    
+同上
 
 
 
