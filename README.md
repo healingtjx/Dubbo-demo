@@ -54,7 +54,7 @@ Dubbo-demo
 -------------------pom.xml  
 
 
-#运行dubbo-admin项目                        
+# 运行dubbo-admin项目                        
 第一种方法:                      
 导入idea                     
 执行 maven clear                    
@@ -70,7 +70,7 @@ mvn spring-boot:run
 
 
   
-#运行dubbo-demo项目    
+# 运行dubbo-demo项目    
 同上
 
 
